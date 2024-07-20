@@ -38,10 +38,6 @@ const UseComentTree = (initialComents) => {
     }
   };
 
-
-
-
-
   const editNode = (tree, commentId, content) => {
     return tree.map((comment) => {
       if (comment.id === commentId) {

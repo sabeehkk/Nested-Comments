@@ -6,7 +6,7 @@ function App() {
  
   return (
    <div>
-    <h1>Nested coment system</h1>
+    <h1 className='project-title'>Nested coment system</h1>
     <NestedComents
      coments={ComentsData}
      onSubmit={(content)=>{content}}
